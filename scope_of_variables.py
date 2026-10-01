@@ -1,24 +1,15 @@
 #!/usr/bin/env python3
-
-# Created by: Adrian student 
-
+# Created by: Adrian student
 # Created on: 01st Sept 2026
-
 # This program shows how local and global variables work
-
 # global variable
-
 variable_X = 55
 
 
 def local_variable():
-
     # this shows what happens with local variables
-
     variable_X = 20
-
     variable_Y = 25
-
     variable_Z = variable_X + variable_Y
 
     print(
@@ -29,15 +20,10 @@ def local_variable():
 
 
 def global_variable():
-
     # this shows what happens with global variables
-
     global variable_X
-
     variable_X = variable_X + 1
-
     variable_Y = 30
-
     variable_Z = variable_X + variable_Y
 
     print(
@@ -48,14 +34,10 @@ def global_variable():
 
 
 def main():
-
     # this function shows how local and global variables work
-
     local_variable()
-
     global_variable()
 
 
 if __name__ == "__main__":
-
     main()
